@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="org.seeingidog.activitydetection" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>cordova-plugin-activitydetection</name>
+    <js-module name="cordova-plugin-activitydetection" src="www/cordova-plugin-activitydetection.js">
+        <clobbers target="cordova.plugins.cordova-plugin-activitydetection" />
+    </js-module>
+</plugin>
