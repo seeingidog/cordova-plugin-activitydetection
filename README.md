@@ -13,5 +13,13 @@ This plugin will expose Android and iOS's APIs that classify the current movemen
 * Others?
 
 
+## Reference
+
+[Android docs](https://developer.android.com/reference/com/google/android/gms/location/ActivityRecognition.html)
+[Android docs](https://developer.android.com/reference/com/google/android/gms/location/ActivityRecognitionApi.html)
+[iOS docs](https://developer.apple.com/library/ios/documentation/CoreMotion/Reference/CMMotionActivityManager_class/)
+
+
 ## Contribute
+
 It is currently WIP, Please feel free to help, especially on the iOS side.

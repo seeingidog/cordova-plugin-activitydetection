@@ -13,12 +13,12 @@
     
     <dependency id="com.google.playservices" />
     
-    
     <!-- android -->
     <platform name="android">
       
       <feature name="ActivityDetectionPlugin">
           <param name="android-package" value="org.seeingidog.activitydetection.ActivityDetectionPlugin" />
+          <param name="onload" value="true" />
       </feature>
       
       <config-file target="AndroidManifest.xml" parent="/manifest">
@@ -26,4 +26,9 @@
       </config-file>
       
     </platform>
+    
+    <!-- ios -->
+    <platform name="ios">      
+    </platform>
+    
 </plugin>
