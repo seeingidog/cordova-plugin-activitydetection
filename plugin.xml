@@ -1,7 +1,29 @@
 <?xml version='1.0' encoding='utf-8'?>
 <plugin id="org.seeingidog.activitydetection" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
-    <name>cordova-plugin-activitydetection</name>
+    <name>activitydetection</name>
+    <description>ActivityDetection plugin</description>
+    <license>Apache 2.0</license>
+    <keywords>activity detection</keywords>
+    <repo>https://github.com/seeingidog/cordova-plugin-activitydetection.git</repo>
+    <issue>https://github.com/seeingidog/cordova-plugin-activitydetection/issues</issue>
+    
     <js-module name="cordova-plugin-activitydetection" src="www/cordova-plugin-activitydetection.js">
         <clobbers target="cordova.plugins.cordova-plugin-activitydetection" />
     </js-module>
+    
+    <dependency id="com.google.playservices" />
+    
+    
+    <!-- android -->
+    <platform name="android">
+      
+      <feature name="ActivityDetectionPlugin">
+          <param name="android-package" value="org.seeingidog.activitydetection.ActivityDetectionPlugin" />
+      </feature>
+      
+      <config-file target="AndroidManifest.xml" parent="/manifest">
+        <uses-permission android:name="com.google.android.gms.permission.ACTIVITY_RECOGNITION"\>
+      </config-file>
+      
+    </platform>
 </plugin>
