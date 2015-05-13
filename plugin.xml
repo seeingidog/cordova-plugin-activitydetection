@@ -3,7 +3,7 @@
     <name>activitydetection</name>
     <description>ActivityDetection plugin</description>
     <license>Apache 2.0</license>
-    <keywords>activity detection</keywords>
+    <keywords>cordova, activity detection</keywords>
     <repo>https://github.com/seeingidog/cordova-plugin-activitydetection.git</repo>
     <issue>https://github.com/seeingidog/cordova-plugin-activitydetection/issues</issue>
     
@@ -11,10 +11,10 @@
         <clobbers target="cordova.plugins.cordova-plugin-activitydetection" />
     </js-module>
     
-    <dependency id="com.google.playservices" />
     
     <!-- android -->
     <platform name="android">
+      <dependency id="com.google.playservices" />
       
       <feature name="ActivityDetectionPlugin">
           <param name="android-package" value="org.seeingidog.activitydetection.ActivityDetectionPlugin" />
@@ -22,7 +22,7 @@
       </feature>
       
       <config-file target="AndroidManifest.xml" parent="/manifest">
-        <uses-permission android:name="com.google.android.gms.permission.ACTIVITY_RECOGNITION"\>
+        <uses-permission android:name="com.google.android.gms.permission.ACTIVITY_RECOGNITION" />
       </config-file>
       
     </platform>
