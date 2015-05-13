@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <plugin id="org.seeingidog.activitydetection" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
     <name>activitydetection</name>
-    <description>ActivityDetection plugin</description>
+    <description>A Cordova plugin that leverages contextual activity detection APIs</description>
     <license>Apache 2.0</license>
     <keywords>cordova, activity detection</keywords>
     <repo>https://github.com/seeingidog/cordova-plugin-activitydetection.git</repo>
@@ -11,6 +11,9 @@
         <clobbers target="cordova.plugins.cordova-plugin-activitydetection" />
     </js-module>
     
+    <engines>
+        <engine name="cordova" version=">=3.0.0" />
+    </engines>
     
     <!-- android -->
     <platform name="android">

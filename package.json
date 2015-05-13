@@ -1,0 +1,29 @@
+{
+  "name": "cordova-plugin-activitydetection",
+  "version": "0.0.1",
+  "description": "A Cordova plugin that leverages contextual activity detection APIs",
+  "cordova": {
+    "id": "org.seeingidog.activitydetection",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seeingidog/cordova-plugin-activitydetection.git"
+  },
+  "keywords": [
+    "cordova",
+    "activity detection",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "author": "Ian Morgan",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/seeingidog/cordova-plugin-activitydetection/issues"
+  },
+  "homepage": "https://github.com/seeingidog/cordova-plugin-activitydetection#readme"
+}

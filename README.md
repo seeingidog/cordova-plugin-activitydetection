@@ -5,8 +5,14 @@
 
 This plugin will expose Android and iOS's APIs that classify the current movement of the device (walking, driving, running, still, etc.)
 
+## Example
 
-## Targetted versions
+```js
+
+```
+
+
+## Targeted versions
 
 * iOS 7.0 and later
 * Android 2.2 (API level 8) and later

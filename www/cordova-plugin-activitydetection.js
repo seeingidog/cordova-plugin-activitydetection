@@ -1,5 +1,10 @@
-var exec = require('cordova/exec');
+var exec = cordova.require('cordova/exec');
 
-function requestActivityUpdates() {
-    exec(null, null, "ActivityDetectionPlugin", "requestActivityUpdate", []);
-}
+
+window.requestActivityUpdate = function() {    
+  cordova.exec(function(activityTyperesult) {alert(activityTyperesult);},
+             function(error) {alert(error);},
+             "ActivityDetectionPlugin",
+             "requestActivityUpdate",
+             []);
+};
